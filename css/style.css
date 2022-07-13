@@ -1,0 +1,437 @@
+@charset "utf-8";
+.main-img{
+	margin-top: 0%;
+	height: 100%;
+	width: 99.8%;
+	background-image: url("../img/top.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: -40%;
+	margin-left: 0%;
+}
+@media = "screen and (max-width: 600px)"{
+	body{
+		margin-top: 0%;
+		width: 100%;
+		height: auto;
+		background-image: url("../img/tab.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: 0%;
+		margin-left: 0%;	
+	}
+	.picture{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 80%;
+	}
+	.con1{
+		width:20%;
+	}
+	
+}
+
+
+
+
+.logo{
+	width: 25%;
+	height: 25%;
+	margin-top: 0%;
+	margin-bottom: 40%;
+	margin-right: 70%;
+}
+
+.info-title{
+	font-size: 85%;
+	font-family:"ms mincho";
+	margin-left: -3%;
+	padding-bottom: -10%;
+	border-bottom: 1rem solid rgb(90, 90, 245);
+	margin-bottom: 15%;
+	padding-left: -8%;
+	width: 58%;
+	min-width: 80%;
+}
+.second-img{
+	position: absolute;
+	z-index: 1;
+	margin-top: 20%;
+	margin-left: 1%;
+	background-image: url("../img/mizu.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode:lighten;
+	width: 73%;
+	height: 30%;
+	font-size: 2rem;
+	padding-top: 8%;
+	padding-left: -30%;
+	background-color: rgba(255, 255, 255, 0.6);
+	letter-spacing: 0.2rem;
+	opacity: 0.6;
+
+}
+.sea{
+}
+.english{
+	background-color: azure;
+	width: 100%;
+	text-align: left;
+	font-size: 1.5rem;
+	letter-spacing:0.2rem;
+	margin: -12% 30% 40%;
+	position: absolute;
+}
+
+.info{
+	width: 80%;
+	height: 10%;
+	margin-left: 60%;
+	margin-top: 13%;
+	z-index: 3;
+	position: relative;
+
+}
+.info-p{
+	margin-left: 6%;
+	margin-top: -15%;
+	font-size: 1.5rem;
+	text-align:left;
+	font-family: "ms mincho";
+	line-height: 3.5rem;
+}
+.p-r{
+	margin-top: 170%;
+	color: navy;
+	background-color: blue;
+	border: 0.2rem solid navy;
+}
+.p-h{
+	color: navy;
+	background-color: blue;
+	border: 0.2rem solid navy;
+}
+
+.mation{
+	position: absolute;
+	margin-left: 45%;
+	margin-right: -30%;
+	font-size: 170%;
+	margin-top: 0%;
+	font-weight: 700;
+	color: gray;
+	opacity: 0.7;
+	padding: 0 auto;
+	width: 80%;
+	min-width: 95%;
+}
+.second{
+	margin-top: 50%;
+	position: absolute;
+}
+.picture{
+	position: relative;
+	margin-top:5%;
+	margin-bottom: 4%;
+	margin-left: 0%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.con1{
+	position: relative;
+	width:49vw;
+	margin: -2%;
+}
+
+.system{
+
+}
+.system-p{
+	font-size:90%;
+	margin-top: 5%;
+	text-align: right;
+	margin-right: 50%;
+	margin-left: 48%;
+	width: 50vw;
+	border-bottom: 1rem solid rgb(90, 90, 245);
+	font-family: "ms mincho";
+}
+.system-p2{
+	font-size: 6.5rem;
+	margin-left: 8%;
+	text-align: left;
+	color: gray;
+	opacity: 0.5;
+	margin-top: 5%;
+}
+.plan-title{
+	position: relative;
+	z-index: 5;
+	font-size: 70%;
+	color: rgba(58, 58, 133,1);
+	margin-left: 0%;
+	padding-left: 0%;
+	margin-right: 10%;
+	margin-top: 2%;
+	text-align: right;
+}
+.menu-p{
+	background-image: url("../img/mizu.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 0.8);
+	background-blend-mode: lighten;
+	width: 90%;
+	margin-top: -5%;
+	text-align: left;
+	font-size: 2rem;
+	padding-top: 5%;
+	padding-left: 3%;
+	padding-bottom: 8%;
+	font-family: "ms mincho";
+	opacity: 0.7;
+
+}
+.border1{
+	border-bottom: 0.1rem solid black;
+	width: 60%;
+	margin-left:0%;
+}
+.alc{
+	width:50%;
+	margin-left:-20%;
+	z-index:7;
+	position: absolute;
+	opacity: none;
+}
+.reserve{
+	width: 100%;
+	margin-top:40%;
+}
+.vr{
+	font-size:10rem;
+	font-weight: 800;
+	height: 150%;
+	margin-top: 20%;
+}
+.ac2{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	font-size: 5rem;
+	border-bottom: 1rem solid rgb(77, 170, 201);
+}
+
+.accses{
+}
+.messe{
+	width: 30%;
+	margin-top: 0%;
+	margin-left: 5%;
+	border: 0.5rem solid rgb(54, 54, 133);
+	padding: 5% 5% 0%;
+	font-size: 2rem;
+	text-align: left;
+	font-family:"ms mincho";
+
+}
+.en{
+	font-size: 1.2rem;
+	text-align: left;
+	width:100%;
+	padding: 5% 20% 5%;
+	margin: 0 auto;
+	margin-top: -15%;
+	letter-spacing: 0.1rem;
+	line-height: 3rem;
+	background-color: rgb(218, 218, 216);
+	position:relative;
+}
+.map{
+	margin-left: 50%;
+	margin-top: -35%;
+	width: 15vw;
+}
+.block3{
+	margin-left: 10%;
+	border: 0.2rem solid rgb(122, 166, 231);
+	padding: 0% 3% 2% 10%;
+	width: 50%;
+	margin-top: 2%;
+}
+.contact-p{
+	font-size: 2rem;
+	margin: 0%;
+}
+.contact{
+	border-bottom: 0.2rem solid rgb(105, 105, 189);
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+.nam1, .nam2{
+	font-size:1.6rem;
+	margin-left: 5%;
+}
+.nam3{
+	margin-left:0%;
+	font-size:1.2rem;
+}
+.nam4{
+	margin-left: -5%;
+	font-size: 1.3rem;
+}
+.block{
+	border: 0.15rem solid rgb(122, 166, 231);
+	width:20%;
+	margin: 0 auto;
+	margin-bottom: -8%;
+	padding:2%;
+	font-size: 2rem;
+}
+.space{
+	width:70%;
+	height: 30%;
+	margin: 0 auto;
+	margin: 15%;
+	padding: 20% 0% 20%;
+	color:black;
+	background-color: black;
+}
+.vr-p{
+	margin-top: 15%;
+	margin-bottom: -10%;
+	font-size: 2rem;
+	text-align: center;	
+}
+.ac-2{
+	text-align: center;
+	font-size: 4rem;
+	border-bottom: 0.15rem solid rgb(105, 105, 189);
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	padding-bottom: 2%;
+
+}
+.contact{
+	border-bottom: 0.1rem solid rgb(105, 105, 189);
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+
+/*仮*/
+.tel{
+	line-height: 40px;}
+.sora{
+	background-image: url(../images/sora.jpg);
+}
+article {
+	width: 74%;
+}
+aside {
+	width: 22%;
+}
+.coka-content{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10px;
+}
+.tel{
+	list-style: none;
+}
+span{
+	font-size: 10px;
+}
+.page{
+	border-bottom: 2px #0bd solid;
+}
+.kaisya{
+	font-size: 45px;
+	margin-left: 10px;
+}
+.sports-content{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.syougou{
+	font-size: 1px;
+}
+.sid{
+	list-style: none;
+}
+.dou{
+	font-size: 20px;
+}
+.in{
+	margin: 0 auto;
+}
+.in{
+	font-size: 30px;
+	magin: 0 auto;
+}
+.migi{
+	text-align: left;
+	margin-top: 270px;
+}
+h4{
+	font-size: 20px;
+}
+h5{
+	font-size: 12px;
+}
+.betu{
+	text-align: center;
+}
+.big-bg{
+	text-align: center;
+	font-size: 60px;
+}
+input{
+	width: 45%;
+	margin-left: 8%;
+}
+.call{
+	font-size: 100px;
+}
+.hiduke{
+	font-size: 20px;
+}
+.kizi{
+	font-size: 30px;
+}
+.gap{
+	font-size: 26px;
+}
+.massage{
+	width:60vw;
+	margin-left: 35%;
+	margin-right: -10%;
+}
+.mail-p{
+	font-size: 2rem;
+	font-weight: 600;
+	background: rgb(50, 50, 235);
+	width: 20vw;
+	margin: 0 auto;
+	padding: 1%;
+	margin-bottom: 5%;
+}
+footer{
+	width: 100%;
+	font-size: 1.2rem;
+	background: rgb(191, 217, 226);
+	padding: 2% 0% 2%;
+}
